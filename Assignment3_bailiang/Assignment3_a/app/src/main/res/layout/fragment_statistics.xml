@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/statisticsLayout">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/statTableLayout"
+        android:background="#FFF"
+        android:padding="5dp">
+        <!-- tableRow0 -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/statTableRow0">
+
+
+            <TextView
+                android:id="@+id/ins0TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:text="Num"
+                android:gravity="center"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:textColor="#000">
+            </TextView>
+            <TextView android:id="@+id/ins1TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:text="Q 1"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <TextView android:id="@+id/ins2TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:text="Q 2"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <TextView android:id="@+id/ins3TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:text="Q 3"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <TextView android:id="@+id/ins4TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:text="Q 4"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <TextView android:id="@+id/ins5TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:text="Q 5"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <!-- tableRow1 -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/statTableRow1">
+
+
+            <TextView
+                android:id="@+id/max0TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:text="Max"
+                android:gravity="center"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:textColor="#000">
+            </TextView>
+            <TextView android:id="@+id/max1TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView android:id="@+id/max2TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView android:id="@+id/max3TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView android:id="@+id/max4TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView android:id="@+id/max5TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </TableRow>
+
+        <!-- tableRow2 -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/statTableRow2">
+
+
+            <TextView
+                android:id="@+id/min0TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:text="Min"
+                android:gravity="center"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:textColor="#000">
+            </TextView>
+            <TextView android:id="@+id/min1TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView android:id="@+id/min2TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView android:id="@+id/min3TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView android:id="@+id/min4TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView android:id="@+id/min5TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </TableRow>
+
+        <!-- tableRow3 -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/statTableRow3">
+
+
+            <TextView
+                android:id="@+id/avg0TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:text="Avg"
+                android:gravity="center"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:textColor="#000">
+            </TextView>
+            <TextView android:id="@+id/avg1TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView android:id="@+id/avg2TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView android:id="@+id/avg3TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView android:id="@+id/avg4TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView android:id="@+id/avg5TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:textSize = "30sp"
+                android:layout_span="1"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

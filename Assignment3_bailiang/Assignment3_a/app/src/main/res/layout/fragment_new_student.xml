@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/newStudentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/blank"
+        android:orientation="vertical" >
+
+        <EditText android:id="@+id/stuEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="      Student ID (4 digits)"
+            android:inputType="number"
+            android:background="@drawable/additem">
+
+        </EditText>
+        <EditText android:id="@+id/q1EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="      Quiz 1 Score"
+            android:inputType="number"
+            android:background="@drawable/additem">
+
+        </EditText>
+        <EditText android:id="@+id/q2EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="      Quiz 2 Score"
+            android:inputType="number"
+            android:background="@drawable/additem">
+
+        </EditText>
+        <EditText android:id="@+id/q3EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="      Quiz 3 Score"
+            android:inputType="number"
+            android:background="@drawable/additem">
+
+        </EditText>
+        <EditText android:id="@+id/q4EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="      Quiz 4 Score"
+            android:inputType="number"
+            android:background="@drawable/additem">
+
+        </EditText>
+        <EditText android:id="@+id/q5EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="      Quiz 5 Score"
+            android:inputType="number"
+            android:background="@drawable/additem">
+
+        </EditText>
+        <Button android:id="@+id/saveRecordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/save">
+
+        </Button>
+    </LinearLayout>
+</RelativeLayout>

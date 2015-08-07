@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ui.MainActivity"
+    tools:ignore="MergeRootFrame">
+    
+    <!-- Personal Information -->
+    <TextView
+        android:id="@+id/emailtextView"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="bailiang@andrew.cmu.edu"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/cellphonetextView"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        android:text="+8615210603091"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+    
+    <TextView
+        android:id="@+id/liketextView"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
+        android:text="Baseball, Swimming"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/disliketextView"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:text="TINGFENG XIE"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/facebooktextView"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:text="@string/facebook"
+        android:autoLink="web"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        />
+    
+    <TextView
+        android:id="@+id/urltextView"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:text="@string/url"
+        android:autoLink="web"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        />
+    <!-- Next Button -->
+    <ImageView
+        android:id="@+id/viewResultButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    
+ </RelativeLayout>
+
+<!-- From: file:/Users/gongbailiang/Downloads/Assignment3_bailiang/Assignment3_b/app/src/main/res/layout/activity_main.xml -->

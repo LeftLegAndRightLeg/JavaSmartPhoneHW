@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ui.ResultActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="@drawable/image1">
+    
+    <!-- Select Buttons -->
+    <ImageButton
+        android:id="@+id/musicButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/music" />
+
+    <ImageButton
+        android:id="@+id/videoButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/video" />
+    
+    <ImageButton
+        android:id="@+id/maillistButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp"
+        android:background="@drawable/maillist" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="460dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/image" />
+
+    <!-- Display FrameLayout -->
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="450dp"
+        android:layout_height="680dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp" >
+    </FrameLayout>
+    
+</RelativeLayout>
